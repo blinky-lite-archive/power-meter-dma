@@ -1,9 +1,9 @@
-# rfct device-message-adapter
+# power-meter device-message-adapter
 ## need to add .env file with the following
-MQTTPUBLISHTOPIC=maxiv\/r3-rfct\/reading<br/>
-MQTTSUBSCRIBETOPIC=maxiv\/r3-rfct\/setting<br/>
-MQTTCLIENTID=r3-rfct-dma<br/>
-MQTTSERVERIP=broker.shiftr.io<br/>
+MQTTPUBLISHTOPIC=seahouse\/power-meter\/01\/reading<br/>
+MQTTSUBSCRIBETOPIC=seahouse\/power-meter\/01\/setting<br/>
+MQTTCLIENTID=power-meter-01<br/>
+MQTTSERVERIP=seahouse-controlbox-01.local<br/>
 MQTTUSERNAME=xxxxxxxx<br/>
 MQTTPASSWORD=xxxxxxxx<br/>
 NODEREDCONFIGSECRET=xxxxxxxxx<br/>
