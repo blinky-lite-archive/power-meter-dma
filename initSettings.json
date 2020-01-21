@@ -2,270 +2,266 @@
   "deviceType": "power-meter",
   "name": "01",
   "arcPeriod": 60000,
-  "timeStamp": 1568013837041,
-  "lastArchive": 1568013835052,
-  "readings": [
-    {
-      "attr": "milliAmps",
-      "type": "scalar",
-      "value": 46.7,
-      "unit": "mA",
-      "alarm": {
-        "value": 4,
-        "limits": {
-          "lolo": 0,
-          "low": 0,
-          "high": 5000,
-          "hihi": 5
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
-      }
-    },
-    {
-      "attr": "power",
-      "type": "scalar",
-      "value": 11.2,
-      "unit": "Watts",
-      "alarm": {
-        "value": 4,
-        "limits": {
-          "lolo": 0,
-          "low": 0,
-          "high": 1000,
-          "hihi": 5
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
-      }
-    },
-    {
-      "attr": "sampleRate",
-      "type": "scalar",
-      "value": 13213,
-      "unit": "unit",
-      "alarm": {
-        "value": 4,
-        "limits": {
-          "lolo": 0,
-          "low": 0,
-          "high": 20000,
-          "hihi": 5
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
-      }
-    },
-    {
-      "attr": "rawRms",
-      "type": "scalar",
-      "value": 25,
-      "unit": "unit",
-      "alarm": {
-        "value": 4,
-        "limits": {
-          "lolo": 0,
-          "low": 0,
-          "high": 5000,
-          "hihi": 5
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
-      }
-    },
-    {
-      "attr": "linkQuality",
-      "type": "scalar",
-      "value": 25,
-      "unit": "/70",
-      "alarm": {
-        "value": 3,
-        "limits": {
-          "lolo": 30,
-          "low": 40,
-          "high": 71,
-          "hihi": 80
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
-      }
-    },
-    {
-      "attr": "signalLevel",
-      "type": "scalar",
-      "value": -85,
-      "unit": "dBm",
-      "alarm": {
-        "value": 3,
-        "limits": {
-          "lolo": -70,
-          "low": -60,
-          "high": 0,
-          "hihi": 30
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
+  "timeStamp": 1579620007645,
+  "lastArchive": 1579619979487,
+  "milliAmps": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 72.7,
+    "unit": "mA",
+    "alarm": {
+      "value": 4,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 5000,
+        "hihi": 5
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
       }
     }
-  ],
-  "settings": [
-    {
-      "attr": "numSamplesAvg",
-      "type": "scalar",
-      "value": 10000,
-      "unit": "unit",
-      "alarm": {
-        "value": 0,
-        "limits": {
-          "lolo": 0,
-          "low": 0,
-          "high": 20000,
-          "hihi": 20000
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
+  },
+  "power": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 17.4,
+    "unit": "Watts",
+    "alarm": {
+      "value": 4,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 1000,
+        "hihi": 5
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
       }
-    },
-    {
-      "attr": "numSamplesFilter",
-      "type": "scalar",
-      "value": 1,
-      "unit": "unit",
-      "alarm": {
-        "value": 0,
-        "limits": {
-          "lolo": 0,
-          "low": 0,
-          "high": 20000,
-          "hihi": 20000
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
+    }
+  },
+  "sampleRate": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 13216,
+    "unit": "unit",
+    "alarm": {
+      "value": 4,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 20000,
+        "hihi": 5
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
       }
-    },
-    {
-      "attr": "numSamplesRms",
-      "type": "scalar",
-      "value": 10000,
-      "unit": "unit",
-      "alarm": {
-        "value": 0,
-        "limits": {
-          "lolo": 0,
-          "low": 0,
-          "high": 20000,
-          "hihi": 20000
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
+    }
+  },
+  "rawRms": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 35.7,
+    "unit": "unit",
+    "alarm": {
+      "value": 4,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 5000,
+        "hihi": 5
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
       }
-    },
-    {
-      "attr": "adcTomA",
-      "type": "scalar",
-      "value": 0.4096,
-      "unit": "mA-1",
-      "alarm": {
-        "value": 0,
-        "limits": {
-          "lolo": 0,
-          "low": 0,
-          "high": 1,
-          "hihi": 1
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
-      }
-    },
-    {
-      "attr": "rmsOffset",
-      "type": "scalar",
-      "value": 5.9,
-      "unit": "unit",
-      "alarm": {
-        "value": 4,
-        "limits": {
-          "lolo": 0,
-          "low": 0,
-          "high": 5,
-          "hihi": 5
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
-      }
-    },
-    {
-      "attr": "acVolts",
-      "type": "scalar",
-      "value": 240,
-      "unit": "Volts",
-      "alarm": {
-        "value": 0,
-        "limits": {
-          "lolo": 0,
-          "low": 0,
-          "high": 250,
-          "hihi": 250
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
-      }
-    },
-    {
-      "attr": "relay",
-      "type": "scalar",
+    }
+  },
+  "linkQuality": {
+    "action": "reading",
+    "type": "scalar",
+    "value": 44,
+    "unit": "/70",
+    "alarm": {
       "value": 0,
-      "unit": "unit",
-      "alarm": {
-        "value": 0,
-        "limits": {
-          "lolo": -1,
-          "low": -1,
-          "high": 2,
-          "hihi": 2
-        },
-        "notify": {
-          "name": "",
-          "number": "",
-          "time": 0
-        }
+      "limits": {
+        "lolo": 30,
+        "low": 40,
+        "high": 71,
+        "hihi": 80
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
       }
     }
-  ]
+  },
+  "signalLevel": {
+    "action": "reading",
+    "type": "scalar",
+    "value": -66,
+    "unit": "dBm",
+    "alarm": {
+      "value": 1,
+      "limits": {
+        "lolo": -70,
+        "low": -60,
+        "high": 0,
+        "hihi": 30
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "numSamplesAvg": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 10000,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 20000,
+        "hihi": 20000
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "numSamplesFilter": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 1,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 20000,
+        "hihi": 20000
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "numSamplesRms": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 10000,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 20000,
+        "hihi": 20000
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "adcTomA": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 0.4096,
+    "unit": "mA-1",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 1,
+        "hihi": 1
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "rmsOffset": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 5.9,
+    "unit": "unit",
+    "alarm": {
+      "value": 4,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 5,
+        "hihi": 5
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "acVolts": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 240,
+    "unit": "Volts",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": 0,
+        "low": 0,
+        "high": 250,
+        "hihi": 250
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  },
+  "relay": {
+    "action": "setting",
+    "type": "scalar",
+    "value": 0,
+    "unit": "unit",
+    "alarm": {
+      "value": 0,
+      "limits": {
+        "lolo": -1,
+        "low": -1,
+        "high": 2,
+        "hihi": 2
+      },
+      "notify": {
+        "name": "",
+        "number": "",
+        "time": 0
+      }
+    }
+  }
 }
